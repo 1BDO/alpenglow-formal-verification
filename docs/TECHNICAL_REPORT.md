@@ -1,13 +1,13 @@
 # Technical Report: Formal Verification of the Alpenglow Protocol
 
 ## Table of Contents
-  1. [Executive Summary](#Executive-Summary)
-  2. [Introduction: The Verification Imperative for Alpenglow](#introduction-the-verification-imperative-for-alpenglow)
-  3. [Protocol Overview](#Protocol-Overview)
-  4. [Our Verification Strategy: Combining Formal Proof with Statistical Validation](#our-verification-strategy-combining-formal-proof-with-statistical-validation)
-  5. [Machine-Verified Theorems](#Machine-Verified-Theorems)
-  6. [Methodology & Results: A Deeper Dive](#methodology--results-a-deeper-dive)
-  7. [Conclusion](#Conclusion)
+  1. [Executive Summary](#1-Executive-Summary)
+  2. [Introduction: The Verification Imperative for Alpenglow](#2-introduction-the-verification-imperative-for-alpenglow)
+  3. [Protocol Overview](#3-Protocol-Overview)
+  4. [Our Verification Strategy: Combining Formal Proof with Statistical Validation](#4-our-verification-strategy-combining-formal-proof-with-statistical-validation)
+  5. [Machine-Verified Theorems](#5-Machine-Verified-Theorems)
+  6. [Methodology & Results: A Deeper Dive](#6-methodology--results-a-deeper-dive)
+  7. [Conclusion](#7-Conclusion)
   
 
 ## **1. Executive Summary**
