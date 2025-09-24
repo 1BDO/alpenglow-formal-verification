@@ -7,13 +7,15 @@ Comprehensive formal verification of Solana's Alpenglow consensus protocol using
 
 ## Quick Start
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/1BDO/alpenglow-formal-verification.git
-cd alpenglow-formal-verification
+### 1. Clone the repository
 
-# 2. Check Out `docs/HOW_TO_RUN.md`:
+```bash
+git clone https://github.com/1BDO/alpenglow-formal-verification.git
 ````
+````
+cd alpenglow-formal-verification
+````
+### 2. Check Out `docs/HOW_TO_RUN.md`:
 
 This entire project is reproducible. The recommended method is to use the provided `Makefile`, which leverages Docker to ensure a consistent environment.
 
