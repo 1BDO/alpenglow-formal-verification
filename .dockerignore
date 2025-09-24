@@ -1,0 +1,12 @@
+
+Ignore the local Python virtual environment
+venv/
+Ignore any generated results from previous runs
+results/
+Ignore Python cache files
+pycache/
+Ignore Git directory
+.git/
+Ignore editor-specific settings
+.vscode/
+.idea/

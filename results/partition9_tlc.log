@@ -1,0 +1,486 @@
+TLC2 Version 2.20 of Day Month 20?? (rev: 5b8488d)
+Warning: Please run the Java VM, which executes TLC with a throughput optimized garbage collector, by passing the "-XX:+UseParallelGC" property.
+(Use the -nowarning option to disable this warning.)
+Running breadth-first search Model-Checking with fp 93 and seed -1846035425191911406 with 4 workers on 4 cores with 1970MB heap and 64MB offheap memory [pid: 110] (Linux 6.6.87.2-microsoft-standard-WSL2 amd64, Eclipse Adoptium 17.0.16 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /app/specs/tla/PartitionRecovery.tla
+Parsing file /tmp/tlc-14627893993423407404/Naturals.tla (jar:file:/app/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-14627893993423407404/Sequences.tla (jar:file:/app/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-14627893993423407404/FiniteSets.tla (jar:file:/app/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-14627893993423407404/TLC.tla (jar:file:/app/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-14627893993423407404/_TLCTrace.tla (jar:file:/app/tla2tools.jar!/tla2sany/StandardModules/_TLCTrace.tla)
+Parsing file /tmp/tlc-14627893993423407404/TLCExt.tla (jar:file:/app/tla2tools.jar!/tla2sany/StandardModules/TLCExt.tla)
+Parsing file /tmp/tlc-14627893993423407404/Integers.tla (jar:file:/app/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Integers
+Semantic processing of module TLCExt
+Semantic processing of module _TLCTrace
+Semantic processing of module PartitionRecovery
+Linting of module TLCExt
+Linting of module _TLCTrace
+Linting of module PartitionRecovery
+Starting... (2025-09-20 05:18:54)
+Warning: Temporal properties (PROPERTY or PROPERTIES) are being verified without a fairness constraint conjoined to the behavior specification Spec defined at line 144, col 1 to line 144, col 29 of module PartitionRecovery. This may lead to trivial counterexamples in which the system exhibits infinite stuttering immediately after the initial state. To avoid this, it is recommended to conjoin a suitable fairness constraint to Spec (compare Chapter 8, page 87ff of Specifying Systems at https://lamport.azurewebsites.net/tla/book.html).
+Implied-temporal checking--satisfiability problem has 1 branches.
+Computing initial states...
+Computed 2 initial states...
+Computed 4 initial states...
+Finished computing initial states: 5 distinct states generated at 2025-09-20 05:18:54.
+Checking temporal properties for the current state space with 35002 total distinct states at (2025-09-20 05:18:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:18:57
+Progress(10) at 2025-09-20 05:18:57: 376,555 states generated (376,555 s/min), 78,697 distinct states found (78,697 ds/min), 43,695 states left on queue.
+Checking temporal properties for the current state space with 1980042 total distinct states at (2025-09-20 05:19:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:19:57
+Progress(16) at 2025-09-20 05:19:57: 23,322,976 states generated (22,946,421 s/min), 3,283,765 distinct states found (3,205,068 ds/min), 1,303,722 states left on queue.
+Checking temporal properties for the current state space with 3759568 total distinct states at (2025-09-20 05:20:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:20:57
+Progress(17) at 2025-09-20 05:20:57: 44,255,716 states generated (20,932,740 s/min), 5,928,635 distinct states found (2,644,870 ds/min), 2,168,964 states left on queue.
+Checking temporal properties for the current state space with 5684713 total distinct states at (2025-09-20 05:21:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:21:57
+Progress(18) at 2025-09-20 05:21:57: 66,725,992 states generated (22,470,276 s/min), 8,689,581 distinct states found (2,760,946 ds/min), 3,004,854 states left on queue.
+Checking temporal properties for the current state space with 7448098 total distinct states at (2025-09-20 05:22:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:22:57
+Progress(18) at 2025-09-20 05:22:57: 87,932,510 states generated (21,206,518 s/min), 11,097,632 distinct states found (2,408,051 ds/min), 3,649,534 states left on queue.
+Checking temporal properties for the current state space with 9427117 total distinct states at (2025-09-20 05:23:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:23:57
+Progress(19) at 2025-09-20 05:23:57: 110,073,223 states generated (22,140,713 s/min), 13,838,969 distinct states found (2,741,337 ds/min), 4,411,850 states left on queue.
+Checking temporal properties for the current state space with 11452761 total distinct states at (2025-09-20 05:24:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:24:57
+Progress(20) at 2025-09-20 05:24:57: 133,677,449 states generated (23,604,226 s/min), 16,468,867 distinct states found (2,629,898 ds/min), 5,016,095 states left on queue.
+Checking temporal properties for the current state space with 13409693 total distinct states at (2025-09-20 05:25:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:25:57
+Progress(20) at 2025-09-20 05:25:57: 155,258,229 states generated (21,580,780 s/min), 19,037,536 distinct states found (2,568,669 ds/min), 5,627,858 states left on queue.
+Checking temporal properties for the current state space with 15275544 total distinct states at (2025-09-20 05:26:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:26:57
+Progress(20) at 2025-09-20 05:26:57: 177,487,702 states generated (22,229,473 s/min), 21,497,165 distinct states found (2,459,629 ds/min), 6,221,546 states left on queue.
+Checking temporal properties for the current state space with 17023341 total distinct states at (2025-09-20 05:27:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:27:57
+Progress(21) at 2025-09-20 05:27:57: 196,532,881 states generated (19,045,179 s/min), 23,705,975 distinct states found (2,208,810 ds/min), 6,682,613 states left on queue.
+Progress(21) at 2025-09-20 05:28:57: 211,926,083 states generated (15,393,202 s/min), 25,470,076 distinct states found (1,764,101 ds/min), 7,030,517 states left on queue.
+Checking temporal properties for the current state space with 19934039 total distinct states at (2025-09-20 05:29:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:29:57
+Progress(21) at 2025-09-20 05:29:57: 228,980,370 states generated (17,054,287 s/min), 27,436,430 distinct states found (1,966,354 ds/min), 7,502,389 states left on queue.
+Progress(21) at 2025-09-20 05:30:57: 245,464,553 states generated (16,484,183 s/min), 29,166,909 distinct states found (1,730,479 ds/min), 7,818,908 states left on queue.
+Checking temporal properties for the current state space with 22868345 total distinct states at (2025-09-20 05:31:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:31:57
+Progress(22) at 2025-09-20 05:31:57: 262,055,888 states generated (16,591,335 s/min), 30,969,488 distinct states found (1,802,579 ds/min), 8,101,124 states left on queue.
+Progress(22) at 2025-09-20 05:32:57: 276,278,258 states generated (14,222,370 s/min), 32,683,052 distinct states found (1,713,564 ds/min), 8,462,466 states left on queue.
+Checking temporal properties for the current state space with 25491537 total distinct states at (2025-09-20 05:33:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:33:57
+Progress(22) at 2025-09-20 05:33:57: 289,920,450 states generated (13,642,192 s/min), 34,198,996 distinct states found (1,515,944 ds/min), 8,707,458 states left on queue.
+Progress(22) at 2025-09-20 05:34:57: 303,362,737 states generated (13,442,287 s/min), 35,736,593 distinct states found (1,537,597 ds/min), 9,033,908 states left on queue.
+Progress(22) at 2025-09-20 05:35:57: 316,188,415 states generated (12,825,678 s/min), 37,130,625 distinct states found (1,394,032 ds/min), 9,307,984 states left on queue.
+Checking temporal properties for the current state space with 28896892 total distinct states at (2025-09-20 05:36:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:36:57
+Progress(22) at 2025-09-20 05:36:57: 328,471,156 states generated (12,282,741 s/min), 38,400,241 distinct states found (1,269,616 ds/min), 9,503,349 states left on queue.
+Progress(22) at 2025-09-20 05:37:57: 342,173,639 states generated (13,702,483 s/min), 39,738,963 distinct states found (1,338,722 ds/min), 9,621,782 states left on queue.
+Progress(23) at 2025-09-20 05:38:57: 353,381,345 states generated (11,207,706 s/min), 41,126,834 distinct states found (1,387,871 ds/min), 9,915,106 states left on queue.
+Checking temporal properties for the current state space with 32260045 total distinct states at (2025-09-20 05:39:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:39:57
+Progress(23) at 2025-09-20 05:39:57: 364,210,424 states generated (10,829,079 s/min), 42,425,148 distinct states found (1,298,314 ds/min), 10,165,101 states left on queue.
+Progress(23) at 2025-09-20 05:40:57: 374,921,550 states generated (10,711,126 s/min), 43,648,073 distinct states found (1,222,925 ds/min), 10,355,258 states left on queue.
+Progress(23) at 2025-09-20 05:41:57: 385,730,646 states generated (10,809,096 s/min), 44,779,526 distinct states found (1,131,453 ds/min), 10,471,467 states left on queue.
+Progress(23) at 2025-09-20 05:42:57: 397,024,796 states generated (11,294,150 s/min), 46,077,582 distinct states found (1,298,056 ds/min), 10,719,405 states left on queue.
+Checking temporal properties for the current state space with 36337534 total distinct states at (2025-09-20 05:43:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:43:57
+Progress(23) at 2025-09-20 05:43:57: 408,064,524 states generated (11,039,728 s/min), 47,287,884 distinct states found (1,210,302 ds/min), 10,950,349 states left on queue.
+Progress(23) at 2025-09-20 05:44:57: 419,884,027 states generated (11,819,503 s/min), 48,521,980 distinct states found (1,234,096 ds/min), 11,122,814 states left on queue.
+Progress(23) at 2025-09-20 05:45:57: 429,177,699 states generated (9,293,672 s/min), 49,481,169 distinct states found (959,189 ds/min), 11,260,472 states left on queue.
+Progress(23) at 2025-09-20 05:46:57: 440,047,294 states generated (10,869,595 s/min), 50,517,224 distinct states found (1,036,055 ds/min), 11,340,098 states left on queue.
+Checking temporal properties for the current state space with 40294453 total distinct states at (2025-09-20 05:47:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:47:57
+Progress(24) at 2025-09-20 05:47:57: 451,306,045 states generated (11,258,751 s/min), 51,776,970 distinct states found (1,259,746 ds/min), 11,482,487 states left on queue.
+Checkpointing of run states/25-09-20-05-18-54.171
+Checkpointing completed at (2025-09-20 05:48:57)
+Progress(24) at 2025-09-20 05:48:57: 461,681,781 states generated (10,375,736 s/min), 53,056,656 distinct states found (1,279,686 ds/min), 11,745,382 states left on queue.
+Progress(24) at 2025-09-20 05:49:57: 471,876,152 states generated (10,194,371 s/min), 54,242,681 distinct states found (1,186,025 ds/min), 11,924,019 states left on queue.
+Progress(24) at 2025-09-20 05:50:57: 481,922,416 states generated (10,046,264 s/min), 55,379,237 distinct states found (1,136,556 ds/min), 12,071,141 states left on queue.
+Progress(24) at 2025-09-20 05:51:57: 491,813,071 states generated (9,890,655 s/min), 56,456,969 distinct states found (1,077,732 ds/min), 12,172,240 states left on queue.
+Checking temporal properties for the current state space with 45302451 total distinct states at (2025-09-20 05:52:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:52:57
+Progress(24) at 2025-09-20 05:52:57: 502,219,173 states generated (10,406,102 s/min), 57,572,005 distinct states found (1,115,036 ds/min), 12,269,553 states left on queue.
+Progress(24) at 2025-09-20 05:53:57: 513,276,806 states generated (11,057,633 s/min), 58,829,480 distinct states found (1,257,475 ds/min), 12,531,894 states left on queue.
+Progress(24) at 2025-09-20 05:54:57: 524,022,054 states generated (10,745,248 s/min), 59,973,375 distinct states found (1,143,895 ds/min), 12,704,229 states left on queue.
+Progress(24) at 2025-09-20 05:55:57: 533,973,746 states generated (9,951,692 s/min), 61,018,681 distinct states found (1,045,306 ds/min), 12,840,551 states left on queue.
+Progress(24) at 2025-09-20 05:56:57: 544,534,897 states generated (10,561,151 s/min), 62,092,642 distinct states found (1,073,961 ds/min), 12,950,767 states left on queue.
+Checking temporal properties for the current state space with 50022894 total distinct states at (2025-09-20 05:57:57)
+Finished checking temporal properties in 00s at 2025-09-20 05:57:57
+Progress(24) at 2025-09-20 05:57:57: 554,149,295 states generated (9,614,398 s/min), 63,049,812 distinct states found (957,170 ds/min), 13,026,910 states left on queue.
+Error: Java ran out of memory.  Running Java with a larger memory allocation
+pool (heap) may fix this.  But it won't help if some state has an enormous
+number of successor states, or if TLC must compute the value of a huge set.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 2: <ProposeBlock(2) line 61, col 5 to line 65, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"NULL", "Block_2", "NULL", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 3: <ProposeBlock(1) line 61, col 5 to line 65, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "NULL", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 4: <CastNotarVote(1,"n3") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "NULL", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 5: <CastNotarVote(2,"n4") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "NULL", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 6: <ProposeBlock(3) line 61, col 5 to line 65, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 7: <CastNotarVote(3,"n1") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 8: <CastNotarVote(3,"n2") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 9: <CastNotarVote(3,"n3") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 10: <CastNotarVote(3,"n4") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 11: <FormNotarCert(3) line 78, col 5 to line 86, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 12: <FormFastFinalCert(3) line 90, col 5 to line 98, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "NULL", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 13: <ProposeBlock(4) line 61, col 5 to line 65, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 14: <CastNotarVote(4,"n1") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 15: <CastNotarVote(4,"n2") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "NULL", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 16: <CastNotarVote(4,"n3") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "Block_4", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 17: <CastNotarVote(4,"n4") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "Block_4", n4 |-> "Block_4"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 18: <FormNotarCert(4) line 78, col 5 to line 86, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "NULL", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "Block_4", n4 |-> "Block_4"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 19: <FormFastFinalCert(4) line 90, col 5 to line 98, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "NULL", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "Block_4", n4 |-> "Block_4"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 20: <FormSlowFinalCert(4) line 102, col 5 to line 110, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "NULL">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "Block_4", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "Block_4", n4 |-> "Block_4"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 21: <ProposeBlock(5) line 61, col 5 to line 65, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "Block_5">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "Block_4", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "Block_4", n4 |-> "Block_4"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 22: <CastNotarVote(5,"n1") line 69, col 5 to line 74, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<>>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "Block_5">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "Block_4", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "Block_4", n4 |-> "Block_4"],
+   [n1 |-> "Block_5", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+State 23: <UpdateFinalizedChain line 122, col 5 to line 130, col 78 of module PartitionRecovery>
+/\ networkHealed = FALSE
+/\ finalized = <<"Block_4">>
+/\ partitionStart = 1
+/\ blocks = <<"Block_1", "Block_2", "Block_3", "Block_4", "Block_5">>
+/\ notarized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ leader = <<"n1", "n1", "n1", "n1", "n1">>
+/\ partitioned = {}
+/\ slowFinalized = <<"NULL", "NULL", "NULL", "Block_4", "NULL">>
+/\ fastFinalized = <<"NULL", "NULL", "Block_3", "Block_4", "NULL">>
+/\ votes = << [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "Block_1", n4 |-> "NULL"],
+   [n1 |-> "NULL", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "Block_2"],
+   [n1 |-> "Block_3", n2 |-> "Block_3", n3 |-> "Block_3", n4 |-> "Block_3"],
+   [n1 |-> "Block_4", n2 |-> "Block_4", n3 |-> "Block_4", n4 |-> "Block_4"],
+   [n1 |-> "Block_5", n2 |-> "NULL", n3 |-> "NULL", n4 |-> "NULL"] >>
+
+557600419 states generated, 63350293 distinct states found, 13018642 states left on queue.
+The depth of the complete state graph search is 24.
+Finished in 39min 27s at (2025-09-20 05:58:21)
+Trace exploration spec path: ./PartitionRecovery_TTrace_1758345534.tla
