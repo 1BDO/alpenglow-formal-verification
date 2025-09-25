@@ -13,20 +13,20 @@ verify: check simulate
 # Run only the TLA+ exhaustive model checks.
 check:
 	@echo "--- Running TLA+ Exhaustive Model Checks ---"
-	@sh ./scripts/run_tlc.sh
+	@bash ./scripts/run_tlc.sh
 	@echo "--------------------------------------------"
 
 # Run only the Python statistical simulation.
 simulate:
 	@echo "--- Running Python Statistical Simulation ---"
-	@sh ./scripts/run_simulator.sh
+	@bash ./scripts/run_simulator.sh
 	@echo "-------------------------------------------"
 	@echo "Running partition recovery simulation..." 
-	@sh ./scripts/run_partition_simulation.sh
+	@bash ./scripts/run_partition_simulation.sh
 
 partitionTLA: simulate
 	@echo "--- Running Final Partition TLA+ Check ---"
-	@sh ./scripts/run_partition9.sh
+	@bash ./scripts/run_partition9.sh
 	@echo "-------------------------------------------"
 
 verify-all: verify partitionTLA
