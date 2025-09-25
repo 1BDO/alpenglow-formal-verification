@@ -25,6 +25,12 @@ RUN wget https://github.com/tlaplus/tlaplus/releases/download/v${TLA_VERSION}/tl
 # Copy the project files into the /app directory
 COPY . .
 
+# Normalize CRLF -> LF for any shell scripts in /app/scripts (avoid /bin/bash\r issues)
+RUN find /app/scripts -type f -name "*.sh" -exec sed -i 's/\r$//' {} \;
+
+# Force all scripts executable
+RUN find /app/scripts -type f -name "*.sh" -exec chmod +x {} +
+
 # Install Python dependencies
 RUN python3 -m venv venv
 RUN . venv/bin/activate && pip install -r sim/requirements.txt
