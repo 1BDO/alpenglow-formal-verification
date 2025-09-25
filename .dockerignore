@@ -1,12 +1,35 @@
-
-Ignore the local Python virtual environment
+# Virtual envs
 venv/
-Ignore any generated results from previous runs
+.env
+.env.*
+
+# Results & generated outputs
 results/
-Ignore Python cache files
-pycache/
-Ignore Git directory
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Git metadata (reduces build context size)
 .git/
-Ignore editor-specific settings
+
+# Editor/IDE files
 .vscode/
 .idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc cache
+.cache/
+.mypy_cache/
+.tox/
