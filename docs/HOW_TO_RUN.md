@@ -22,7 +22,24 @@ This method uses Docker to create a perfectly configured environment and runs th
 
 After the run is complete, all output and data files will be saved in the `results/` directory on your local machine.
 
----
+### Individual Commands
+
+You can also run individual components using Docker:
+
+#### TLA+ Only
+```bash
+docker run --rm -v "%cd%/results:/app/results" --entrypoint make alpenglow-verify check
+```
+
+#### Simulation Only
+```bash
+docker run --rm -v "%cd%/results:/app/results" --entrypoint make alpenglow-verify simulate
+```
+
+#### Partition TLA+ Only
+```bash
+docker run --rm -v "%cd%/results:/app/results" --entrypoint make alpenglow-verify partitionTLA
+```
 
 ### **Option 2: Running Components Manually (Without Docker)**
 
