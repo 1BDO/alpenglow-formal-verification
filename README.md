@@ -5,7 +5,7 @@ Comprehensive formal verification of Solana's Alpenglow consensus protocol using
 
 ⚠️ **Note:** Clean the `results/` directory before running.
 
-### Watch the project [demo](#https://www.loom.com/share/a0827a2ed4f04c3c899498036cff6598?sid=54ee78e1-e3e1-4c3e-8b2c-5f8332566588) tutorial video. 
+### Watch the project [demo](https://www.loom.com/share/a0827a2ed4f04c3c899498036cff6598?sid=54ee78e1-e3e1-4c3e-8b2c-5f8332566588) tutorial video. 
 
 ## Quick Start
 
