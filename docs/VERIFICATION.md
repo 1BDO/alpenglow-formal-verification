@@ -35,10 +35,6 @@
 - **Resilience Properties**: Tested under theoretical maximum fault loads
 - **Partition Recovery**: Comprehensive validation of complex failure recovery
 
----
-
-## Expanded Limitations
-
 ### Current Verification Scope
 
 **TLA+ Model Checking Scope:**
